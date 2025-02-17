@@ -1,0 +1,257 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.main-content {
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-content {
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form select {
+  width: 100%; 
+  max-width: 500px; 
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+form button {
+  width: auto;
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+.button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.details-button {
+  background-color: #2ecc71;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.details-button:hover {
+  background-color: #27ae60;
+}
+
+.back-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #c0392b;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.schedule-table th, .schedule-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.schedule-table th {
+  background-color: #3498db;
+  font-weight: bold;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #333; 
+  color: #fff; 
+}
+
+.navbar-left {
+  display: flex; 
+  align-items: center; 
+}
+
+.navbar-logo {
+  margin-right: 20px;
+}
+
+.navbar-logo .nav-link {
+  font-size: 24px; 
+  color: #fff; 
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; 
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #444; 
+  border: 1px solid #007bff; 
+}
+
+.nav-link.active-link {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  margin-left: 20px; 
+  display: inline-block;
+}
+
+.logout-button:hover {
+  background-color: #444;
+  border: 1px solid #007bff;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+}
